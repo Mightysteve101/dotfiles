@@ -1,0 +1,10 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Isaac
+	email = 61329138+Mightysteve101@users.noreply.github.com
+[init]
+	defaultBranch = github
